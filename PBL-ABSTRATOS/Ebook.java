@@ -10,12 +10,12 @@ public class Ebook extends ItemBibliotecaDigital implements Baixavel{
 
     @Override
     public void mostrarDescricao() {
-        System.out.println(descricao);
+        System.out.println("\n" + "Descrição de " + titulo + ": " + descricao + "\n");
     }
 
     @Override
     public void baixar() {
         System.out.println("O Ebook " + titulo + "está sendo baixado...");
-        System.out.println(titulo + "foi baixado com sucesso!");
+        System.out.println(titulo + "foi baixado com sucesso!"+ "\n");
     }
 }

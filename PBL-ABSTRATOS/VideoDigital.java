@@ -10,12 +10,12 @@ public class VideoDigital extends  ItemBibliotecaDigital implements Visualizavel
 
     @Override
     public void mostrarDescricao() {
-        System.out.println(descricao);
+        System.out.println("\n" + "Descrição de " + titulo + ": " + descricao + "\n");
     }
 
     @Override
     public void visualizar() {
         System.out.println("O vídeo " + titulo + "está passando");
-        System.out.println("Seu vídeo terminou!");
+        System.out.println("Seu vídeo terminou!" + "\n");
     }
 }
